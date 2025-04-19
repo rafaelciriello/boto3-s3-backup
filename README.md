@@ -18,3 +18,10 @@ This project uses **Python** and **Boto3** to automate file uploads and backups 
    ```bash
    git clone https://github.com/rafaelciriello/boto3-automation.git
    cd boto3-automation
+2. Set up your AWS credentials (e.g., using environment variables):
+   export AWS_ACCESS_KEY_ID="your_access_key"
+   export AWS_SECRET_ACCESS_KEY="your_secret_key"
+3. Run the script:
+   python s3_backup.py
+   
+Make sure your AWS user has S3 permissions.
